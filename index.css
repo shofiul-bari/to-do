@@ -1,0 +1,103 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: relative;
+    left: 30px;
+    top: 50px;
+
+}
+
+ /* this is main section */
+.main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(149, 109, 187);
+   width: 1300px;
+   height: 550px;
+   border-radius:30px ;
+
+   & h1 {
+      position: relative;
+      bottom: 190px;
+      left: 570px;
+     color: #2a027a;
+     width: 200px;
+     height: 40px;
+   }
+   .inputAriya{
+      width: 600px;
+      height: 350px;
+      background-color: #5454c4;
+      position: relative;
+      right: 140px;
+      top: 50px;
+      border-radius: 20px;
+      display: flex;
+        align-items: center;
+        & h2{
+          width: 130px;
+          position: relative;
+          bottom: 100px;
+        }
+      #inbox{
+        width: 450px;
+        height: 30px;
+        border-radius:10px ;
+        position: relative;
+        left: 30px;
+        padding: 0px 10px;
+        border: none;
+      }
+      #add{
+        border: none;
+        background-color: transparent;
+        position: relative;
+        right: 10px;
+        
+        top: 2px;
+        & img{
+            width: 30px;
+           
+        }
+      }
+   }
+
+   .addbox{
+      width: 600px;
+      height: 350px;
+      background-color: #5454c4;
+      position: relative;
+      right: 40px;
+      top: 50px;
+      border-radius: 20px;
+      
+
+      #selectbox{
+        width: 580px;
+        height: 350px;
+        border-radius:20px ;
+        background-color: transparent;
+        border: none;
+        padding: 20px;
+       
+
+      }
+      #Remobe{
+        border: none;
+        background-color: #632525;
+        border-radius: 5px;
+        position: relative;
+        bottom: 40px;
+       left: 515px;
+        #cros{
+            width: 30px;
+        }
+      }
+   }
+}
+
+
+
+/* midiya quary section */
